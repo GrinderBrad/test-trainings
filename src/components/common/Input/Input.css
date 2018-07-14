@@ -1,0 +1,12 @@
+.input-container{
+  .input{
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    transition: 0.3s;
+    border: 1px solid gray;
+    &:focus{
+      border: 1px solid lightslategray;
+    }
+  }
+}
